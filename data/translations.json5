@@ -4,6 +4,7 @@
 
     "primary-definition": "Primary Definition",
     "secondary-definition": "Secondary Definition",
+    "keywords": "Keywords",
     "additional-notes": "Additional Notes",
     "extra-definitions": "Extra Definitions",
     "extra-info": "Extra Info",
@@ -44,6 +45,7 @@
 
     "primary-definition": "第一の定義",
     "secondary-definition": "第二の定義",
+    "keywords": "キーワード",
     "additional-notes": "メモ",
     "extra-definitions": "他の定義",
     "extra-info": "他の情報",

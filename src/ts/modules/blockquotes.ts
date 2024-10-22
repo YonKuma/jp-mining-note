@@ -6,6 +6,7 @@ import { getTags } from '../utils';
 type EntryId =
   | 'primary-definition'
   | 'secondary-definition'
+  | 'keywords'
   | 'additional-notes'
   | 'extra-definitions'
   | 'extra-info';
@@ -38,6 +39,14 @@ const ENTRIES = [
     buttonId: 'folder_tab_button_secondary_def',
     inputId: 'folder_tab_input_secondary_def',
     checkboxTextId: 'folder_tab_text_secondary_def',
+  } as const,
+  {
+    optionId: 'keywords',
+    eleId: 'keywords_details',
+    entryId: 'keywords',
+    buttonId: 'folder_tab_button_keywords',
+    inputId: 'folder_tab_input_keywords',
+    checkboxTextId: 'folder_tab_text_keywords',
   } as const,
   {
     optionId: 'additionalNotes',

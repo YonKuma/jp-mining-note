@@ -44,6 +44,9 @@
   "keybinds.toggleSecondaryDefinitionsDisplay": [
     "Digit8"
   ],
+  "keybinds.toggleKeywordsDisplay": [
+    "Digit7"
+  ],
   "keybinds.toggleAdditionalNotesDisplay": [
     "Digit9"
   ],
@@ -331,18 +334,20 @@
   "blockquotes.open.enabled": false,
   "blockquotes.open.primaryDefinition": false,
   "blockquotes.open.secondaryDefinition": false,
+  "blockquotes.open.keywords": false,
   "blockquotes.open.additionalNotes": false,
   "blockquotes.open.extraDefinitions": false,
   "blockquotes.open.extraInfo": false,
   "blockquotes.openOnNew.enabled": false,
   "blockquotes.openOnNew.primaryDefinition": false,
   "blockquotes.openOnNew.secondaryDefinition": false,
+  "blockquotes.openOnNew.keywords": false,
   "blockquotes.openOnNew.additionalNotes": false,
   "blockquotes.openOnNew.extraDefinitions": false,
   "blockquotes.openOnNew.extraInfo": false,
   "blockquotes.folderTab.enabled": true,
-  "blockquotes.folderTab.mode": "unique",
-  "blockquotes.folderTab.linkedTabs": "12-3-4-5",
+  "blockquotes.folderTab.mode": "linked",
+  "blockquotes.folderTab.linkedTabs": "13-2-4-5",
   "blockquotes.folderTab.showDotWhenEmpty": false,
   "blockquotes.simplifyDefinitions.enabled": false,
   "blockquotes.simplifyDefinitions.primaryDefinition.enabled": true,

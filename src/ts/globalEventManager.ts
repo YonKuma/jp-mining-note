@@ -92,6 +92,12 @@ function baseKeybindFunc(e: KeyboardEvent) {
 
   toggleDetailsTagOnKey(
     e,
+    getOption('keybinds.toggleKeywordsDisplay'),
+    document.getElementById('keywords_details')
+  );
+
+  toggleDetailsTagOnKey(
+    e,
     getOption('keybinds.toggleAdditionalNotesDisplay'),
     document.getElementById('additional_notes_details')
   );

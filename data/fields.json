@@ -341,6 +341,13 @@
       "personal_setup": "DICTIONARY:\u300c{_jpmn-get-primary-definition-dict}\u300d<br>SELECTION:\u300c{_jpmn-selection-text}\u300d",
       "jidoujisho_export": "Context",
       "ignore_field_exists": true
+    },
+    {
+      "name": "Keywords",
+      "font": 20,
+      "auto_fill": false,
+      "binary_field": false,
+      "default_collapsed": false
     }
   ]
 }

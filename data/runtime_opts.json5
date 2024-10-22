@@ -151,6 +151,8 @@
 
   "keybinds.toggleSecondaryDefinitionsDisplay": ["Digit8"],
 
+  "keybinds.toggleKeywordsDisplay": ["Digit7"],
+
   "keybinds.toggleAdditionalNotesDisplay": ["Digit9"],
 
   "keybinds.toggleExtraDefinitionsDisplay": ["Digit0"],
@@ -917,6 +919,7 @@
   "blockquotes.open.enabled": false,
   "blockquotes.open.primaryDefinition": false,
   "blockquotes.open.secondaryDefinition": false,
+  "blockquotes.open.keywords": false,
   "blockquotes.open.additionalNotes": false,
   "blockquotes.open.extraDefinitions": false,
   "blockquotes.open.extraInfo": false,
@@ -924,6 +927,7 @@
   "blockquotes.openOnNew.enabled": false,
   "blockquotes.openOnNew.primaryDefinition": false,
   "blockquotes.openOnNew.secondaryDefinition": false,
+  "blockquotes.openOnNew.keywords": false,
   "blockquotes.openOnNew.additionalNotes": false,
   "blockquotes.openOnNew.extraDefinitions": false,
   "blockquotes.openOnNew.extraInfo": false,
@@ -938,17 +942,18 @@
   // possible options:
   // "unique"
   // "multiple"
-  "blockquotes.folderTab.mode": "unique",
+  "blockquotes.folderTab.mode": "linked",
   // The tabs that are linked if the folder tab mode is "linked"
   // Otherwise, ignored if the folder tab mode is unique (or multiple).
   // - 1 = Primary Definition
   // - 2 = Secondary Definition
   // - 3 = Additional Notes
-  // - 4 = Extra Definitions
-  // - 5 = Extra Info
+  // - 4 = Additional Notes
+  // - 5 = Extra Definitions
+  // - 6 = Extra Info
   // The example "12-3-4-5" links 1 & 2 (Primary Definition and Secondary Definition)
   // together only.
-  "blockquotes.folderTab.linkedTabs": "12-3-4-5",
+  "blockquotes.folderTab.linkedTabs": "13-2-4-5",
 
   // if set to true, sets the icon to a small dot instead of removing it entirely
   "blockquotes.folderTab.showDotWhenEmpty": false,

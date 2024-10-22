@@ -45,6 +45,7 @@ action:
         { type: "MoveField", params: [ "WordReadingHiragana", 39 ] },
         { type: "AddField", params: [ "YomichanWordTags", 40 ] },
         { type: "AddField", params: [ "CardCache", 44 ] },
+        { type: "AddField", params: [ "Keywords", 47 ] },
 
         // TODO update this!
         {
@@ -96,7 +97,7 @@ action:
 
       ],
 
-      fields: ["Key", "Word", "WordReading", "PAOverride", "PAOverrideText", "AJTWordPitch", "PrimaryDefinition", "PrimaryDefinitionPicture", "Sentence", "SentenceReading", "AltDisplayWord", "AltDisplaySentence", "AltDisplayPASentenceCard", "AltDisplayAudioCard", "AdditionalNotes", "Hint", "HintNotHidden", "IsSentenceCard", "IsTargetedSentenceCard", "IsClickCard", "IsHoverCard", "IsHintCard", "IsSentenceFirstCard", "IsAudioCard", "PAShowInfo", "PATestOnlyWord", "PADoNotTest", "PASeparateWordCard", "PASeparateSentenceCard", "SeparateAudioCard", "SeparateSentenceAudioCard", "Picture", "WordAudio", "SentenceAudio", "PAGraphs", "PAPositions", "FrequenciesStylized", "FrequencySort", "PASilence", "WordReadingHiragana", "YomichanWordTags", "SecondaryDefinition", "ExtraDefinitions", "UtilityDictionaries", "CardCache", "Comment"],
+      fields: ["Key", "Word", "WordReading", "PAOverride", "PAOverrideText", "AJTWordPitch", "PrimaryDefinition", "PrimaryDefinitionPicture", "Sentence", "SentenceReading", "AltDisplayWord", "AltDisplaySentence", "AltDisplayPASentenceCard", "AltDisplayAudioCard", "AdditionalNotes", "Hint", "HintNotHidden", "IsSentenceCard", "IsTargetedSentenceCard", "IsClickCard", "IsHoverCard", "IsHintCard", "IsSentenceFirstCard", "IsAudioCard", "PAShowInfo", "PATestOnlyWord", "PADoNotTest", "PASeparateWordCard", "PASeparateSentenceCard", "SeparateAudioCard", "SeparateSentenceAudioCard", "Picture", "WordAudio", "SentenceAudio", "PAGraphs", "PAPositions", "FrequenciesStylized", "FrequencySort", "PASilence", "WordReadingHiragana", "YomichanWordTags", "SecondaryDefinition", "ExtraDefinitions", "UtilityDictionaries", "CardCache", "Comment", "Keywords"],
     },
 
 
