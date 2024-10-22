@@ -36,6 +36,20 @@
       hoverDisplay: "google.co.jp (Image search)",
     },
 
+    "massif.la": {
+        iconType: "text",
+        iconText: "山",
+        url: "https://massif.la/ja/search?q={{text:Word}}",
+        //hoverDisplay: "用例",
+    },
+
+    "tatoeba.org": {
+        iconType: "text",
+        iconText: "例",
+        url: "https://tatoeba.org/en/sentences/search?from=jpn&has_audio=&native=yes&orphans=no&query={{text:Word}}&sort=relevance&sort_reverse=&tags=&to=&trans_filter=limit&trans_has_audio=&trans_link=&trans_orphan=&trans_to=&trans_unapproved=&trans_user=&unapproved=no&user=&word_count_max=&word_count_min=1",
+        //hoverDisplay: "用例",
+    },
+
     //"yourei.jp": {
     //    iconType: "text",
     //    iconText: "用",

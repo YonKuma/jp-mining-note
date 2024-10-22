@@ -22,6 +22,16 @@
       "iconImageDark": "_icon_image_white.svg",
       "url": "https://www.google.co.jp/search?q={{text:Word}}&tbm=isch",
       "hoverDisplay": "google.co.jp (Image search)"
+    },
+    "massif.la": {
+      "iconType": "text",
+      "iconText": "\u5c71",
+      "url": "https://massif.la/ja/search?q={{text:Word}}"
+    },
+    "tatoeba.org": {
+      "iconType": "text",
+      "iconText": "\u4f8b",
+      "url": "https://tatoeba.org/en/sentences/search?from=jpn&has_audio=&native=yes&orphans=no&query={{text:Word}}&sort=relevance&sort_reverse=&tags=&to=&trans_filter=limit&trans_has_audio=&trans_link=&trans_orphan=&trans_to=&trans_unapproved=&trans_user=&unapproved=no&user=&word_count_max=&word_count_min=1"
     }
   },
   "cssFolders": [
